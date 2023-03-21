@@ -4,10 +4,11 @@
 
 # Step 1.cartSlice.js->create a sclice for your data using the method createSlice()
 
--createSlice(name,initialState,reducers)
--1.name:name of the slice
--2.initialState:initialState of the slice(eg const initialState = [];)
--3.reducers:it is a object like this
+- createSlice(name,initialState,reducers)
+
+- 1.name:name of the slice
+- 2.initialState:initialState of the slice(eg const initialState = [];)
+- 3.reducers:it is a object like this
 
 - reducers: {
   add: (state, action) => {
